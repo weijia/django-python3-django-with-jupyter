@@ -1,6 +1,6 @@
 FROM weijia/docker-python3-django
 
-RUN pip install django-extensions==2.2.9 jupyter ipython -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+RUN pip install django-extensions==2.2.9 jupyter ipython
 
 WORKDIR /app/django-dev-server
 
