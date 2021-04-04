@@ -5,7 +5,7 @@ docker run -it --rm -v/home/ubuntu/codes/agriculture/django-dev-server/external_
   weijia/docker-python3-django-with-jupyter:latest bash
 
 
-docker run -it --rm -v/home/ubuntu/codes/agriculture/django-dev-server/:/app/django-dev-server/ \
+docker run -it --rm -v/home/ubuntu/codes/agriculture/django-dev-server/:/app/django-dev-server/ -p8889:8889 \
   weijia/docker-python3-django-with-jupyter:latest bash
 
 
